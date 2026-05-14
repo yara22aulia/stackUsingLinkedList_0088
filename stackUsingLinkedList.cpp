@@ -15,7 +15,8 @@ public:
 };
 
 // stack class
-class stack{
+class stack
+{
 private:
     Node *top;
 public:
@@ -23,8 +24,7 @@ public:
         top = NULL;
     }
 
-    int push(int value)
-    {
+    int push(int value){
         Node *newNode = new Node();
         newNode->data = value;
         newNode->next = top;
