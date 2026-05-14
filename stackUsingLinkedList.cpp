@@ -39,8 +39,7 @@ public:
         Node *temp = top;
         top = top->next;
         cout << "Popped value: " << top->data << endl;
-        delete temp;
-    }
+        delete temp;}
 
     void peek()
     {
