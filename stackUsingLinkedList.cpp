@@ -49,8 +49,7 @@ public:
             Node *current = top;
             while (current != NULL){
                 cout << current->data << " " << endl;
-                current = current->next;
-            }
+                current = current->next;}
             cout << endl;
         }
     }
