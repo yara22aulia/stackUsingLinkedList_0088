@@ -34,8 +34,7 @@ public:
 
     void pop(){
         if (isEmpty()){
-            cout << "Stack is empty." << endl;
-        }
+            cout << "Stack is empty." << endl;}
 
         Node *temp = top;
         top = top->next;
