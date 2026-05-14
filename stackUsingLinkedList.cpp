@@ -54,8 +54,7 @@ public:
         }
     }
 
-        bool isEmpty()
-    {
+        bool isEmpty(){
         return top == NULL;
     }
 };
