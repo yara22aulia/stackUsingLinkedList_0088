@@ -8,18 +8,18 @@ public:
     int data;
     Node *next;
 
-        Node(){
-        next = NULL;}
+        Node()
+    {
+        next = NULL;
+    }
 };
 
 // stack class
-class stack
-{
+class stack{
 private:
     Node *top;
 public:
-    stack()
-    {
+    stack(){
         top = NULL;
     }
 
@@ -120,7 +120,6 @@ int main()
             cout << "Invalid choice. Try again." << endl;
             break;
         }
-        cout << endl;
-    }
+        cout << endl; }
     return 0;
 }
